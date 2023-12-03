@@ -11,6 +11,7 @@
 #include <vector>
 #include "day_one/day_one.hpp"
 #include "day_two/day_two.h"
+#include "day_three/day_three.h"
 
 
 
@@ -28,7 +29,7 @@ int main(int argc, const char *argv[])
         {
             inputList.push_back(tempStr);
         }
-        cout << "The result is: " << sum_games_ids(inputList) << endl;
+        cout << "The result is: " << sum_part_numbers(inputList) << endl;
     }
     else
     {
