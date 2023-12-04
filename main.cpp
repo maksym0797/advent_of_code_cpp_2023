@@ -12,6 +12,7 @@
 #include "day_one/day_one.hpp"
 #include "day_two/day_two.h"
 #include "day_three/day_three.h"
+#include "day_four/day_four.h"
 
 
 
@@ -29,7 +30,7 @@ int main(int argc, const char *argv[])
         {
             inputList.push_back(tempStr);
         }
-        cout << "The result is: " << sum_part_numbers(inputList) << endl;
+        cout << "The result is: " << total_scratchcards_points(inputList) << endl;
     }
     else
     {
