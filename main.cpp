@@ -16,6 +16,7 @@
 #include "day_five/day_five.h"
 #include "day_six/day_six.h"
 #include "day_seven/day_seven.h"
+#include "day_eight/day_eight.h"
 
 
 
@@ -33,12 +34,12 @@ int main(int argc, const char *argv[])
         {
             inputList.push_back(tempStr);
         }
-        cout << "The result is: " << total_winnings_hands(inputList) << endl;
+        cout << "The result is: " << count_steps_to_reach(inputList) << endl;
     }
     else
     {
         cout << "Error, cannot open input file" << endl;
-    }
+//    }
 
     return 0;
 }
