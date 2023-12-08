@@ -12,4 +12,11 @@ add_executable(advent_of_code_2023_cpp main.cpp
         day_three/day_three.cpp
         day_three/day_three.h
         day_four/day_four.cpp
-        day_four/day_four.h)
+        day_four/day_four.h
+        day_five/day_five.cpp
+        day_five/day_five.h
+        day_six/day_six.cpp
+        day_six/day_six.h
+        day_seven/day_seven.cpp
+        day_seven/day_seven.h
+)
