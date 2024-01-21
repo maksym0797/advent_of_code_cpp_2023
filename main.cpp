@@ -19,6 +19,7 @@
 #include "day_eight/day_eight.h"
 #include "day_nine/day_nine.h"
 #include "day_ten/day_ten.h"
+#include "day_eleven/day_eleven.h"
 
 
 
@@ -36,7 +37,7 @@ int main(int argc, const char *argv[])
         {
             inputList.push_back(tempStr);
         }
-        cout << "The result is: " << count_steps_in_loop(inputList) << endl;
+        cout << "The result is: " << sum_galaxies_lengths(inputList) << endl;
     }
     else
     {
